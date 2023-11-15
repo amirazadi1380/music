@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+color: white;
+overflow-x: hidden;
+background-color: rgb(8, 8, 8);
+
+}
+
+.backg{
+    background-image: url('../public/images/m6.jpg');
+    background-position:top;
+    background-size: cover;
+    height: 282vh;
+    width: 100%;
+    background-color: black;
+    filter: blur(1px);
+    filter: brightness(0.5);
+    z-index: -10;
+}
+.backt{
+    background-image: url('../public/images/m9.jpg');
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    filter: brightness(0.3);
+    
+}
+.swiper-button-prev,
+.swiper-button-next{
+    color: whitesmoke;
+    
+}
+
+.swiper-pagination-bullet{
+    background-color: white;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 35px;
+}
+.backp{
+    background-image: url('../public/images/m4.jpg');
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    filter: brightness(0.25);
+}
